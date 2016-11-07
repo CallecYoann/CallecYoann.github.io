@@ -119,7 +119,7 @@ echo "</table>";
     <form class="container" action="form/uploadform.php" method="post"> <!-- ANCIEN FORM POUR FOOTER -->
         <!-- <input id="addbtn" class="btn btn-primary" type="submit" value="Ajouter un son, WESH !" /> -->  <!-- ANCIEN BOUTON -->
         <button type="button" class="btn btn-info btn-sm" data-toggle="modal" data-target="#addBtnTrackModal">Add track</button>
-        <input type="submit" name="name" value="UPLOAD">
+        <input class="btn btn-success btn-sm" type="submit" name="name" value="UPLOAD">
     </form>
 </footer>
 

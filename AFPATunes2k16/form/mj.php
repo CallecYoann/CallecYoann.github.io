@@ -9,5 +9,14 @@ $mj = $pdo->prepare("SELECT * FROM playlist;");
 $mj->execute();
 $donnees = $mj->fetch();
   echo '<img src="'.$donnees['cover'].'">';
-
  ?>
+ <!DOCTYPE html>
+ <html>
+   <head>
+
+     <meta http-equiv="refresh" content="2; URL=../index.php">
+     <title>Your Picture</title>
+   </head>
+   <body>
+   </body>
+ </html>
